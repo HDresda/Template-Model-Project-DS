@@ -1,0 +1,72 @@
+# ==============================
+# Python
+# ==============================
+
+# Archivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# ==============================
+# Sistema operativo
+# ==============================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ==============================
+# Archivos temporales
+# ==============================
+
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+~$*
+
+# ==============================
+# Python / Testing
+# ==============================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Build / distribución
+# ==============================
+
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Variables de entorno / secretos
+# ==============================
+
+.env
+.env.*
